@@ -1,0 +1,27 @@
+# This is a basic workflow to help you get started with Actions
+
+push:
+
+   branch:
+
+     - main
+ 
+job:
+
+  hello
+
+  runs-on:  ubuntu
+ 
+steps:
+
+  - name: checkout
+
+    uses: checkout@main
+ 
+  - name: Run
+
+    run:
+
+       echo "hello"
+ 
+  
