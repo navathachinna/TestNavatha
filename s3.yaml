@@ -5,4 +5,4 @@ Resources:
   MyS3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: "navatha-test3"
+      BucketName: "navatha-test3bucket"
